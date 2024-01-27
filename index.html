@@ -15,6 +15,9 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/mousescroll.css" rel="stylesheet" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="js/mousescroll.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -28,6 +31,8 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#game1">Game1</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#game2">Game2</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#game3">Game3</a></li>
                 </ul>
             </div>
  
@@ -36,43 +41,123 @@
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
+            <!-- Scroll Indicator !-->
+            <a href="#">
+            <div id="mouse-scroll">
+              <div class="mouse">
+                <div class="mouse-in"></div>
+              </div>
+              <div>
+                  <span class="down-arrow-1"></span>
+                  <span class="down-arrow-2"></span>
+                  <span class="down-arrow-3"></span>
+               </div>
+            </div>
+            </a>
+
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        rai <span class="text-primary">(雷)</span>
+                        rai <span class="text-primary"></span>
                     </h1>
                     <div class="subheading mb-5">
-                    	<a href="mailto:raisinsdots@gmail.com">raisinsdots@gmail.com</a>
+                    	<a href="mailto:raisins.rai@gmail.com">raisins.rai@gmail.com</a>
                     </div>
                     <p class="lead mb-5">Fullstack + Indie Developer with a pechant for creative works. Experienced in Frontend development and UX Design.</p>
-                <!-- scroll indicator !-->
-                <a href="#">
-                <div id="mouse-scroll">
-                  <div class="mouse">
-                    <div class="mouse-in"></div>
-                  </div>
-                  <div>
-                      <span class="down-arrow-1"></span>
-                      <span class="down-arrow-2"></span>
-                      <span class="down-arrow-3"></span>
-                   </div>
-                </div>
-                </a>
-                <!-- scroll indicator !-->
                 </div>
             </section>
             
-            <!-- Game1-->
+            <!-- Game1 -->
             <section class="resume-section" id="game1">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Game1</h2>
-                    <div class="subheading mb-5">
-                        
+                    <h2 class="mb-5">Game Title</h2>
+                    <div class="subheading">
+                        <img src="https://placehold.co/600x400" class="img-fluid" alt="Game Title">
+                        <h5>
+                            <span class="badge bg-primary">game design</span>
+                            <span class="badge bg-primary">code</span>
+                            <span class="badge bg-primary">art</span>
+                        </h5>
                     </div>
-                    <p class="lead mb-5">Description</p>
+                    <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis</strong> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                        <a class="btn btn-primary subheading mb-5" href="#" role="button">Download</a>
                 </div>
             </section>
+
+            <!-- Game2 -->
+            <section class="resume-section" id="game2">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Game Title</h2>
+                    <div class="subheading">
+                        <img src="https://placehold.co/600x400" class="img-fluid" alt="Game Title">
+                        <h5>
+                            <span class="badge bg-primary">game design</span>
+                            <span class="badge bg-primary">code</span>
+                            <span class="badge bg-primary">art</span>
+                        </h5>
+                    </div>
+                    <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis</strong> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                        <a class="btn btn-primary subheading mb-5" href="#" role="button">Download</a>
+                </div>
+            </section>
+
+            <!-- Game3 -->
+            <section class="resume-section" id="game3">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Game Title</h2>
+                    <div class="subheading">
+                        <img src="https://placehold.co/600x400" class="img-fluid" alt="Game Title">
+                        <h5>
+                            <span class="badge bg-primary">game design</span>
+                            <span class="badge bg-primary">code</span>
+                            <span class="badge bg-primary">art</span>
+                        </h5>
+                    </div>
+                    <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis</strong> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                        <a class="btn btn-primary subheading mb-5" href="#" role="button">Download</a>
+                </div>
+            </section>
+
+            <!-- Other Works -->
+            <section class="resume-section" id="other-work">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Game Title</h2>
+                    <div class="subheading">
+                        <img src="https://placehold.co/600x400" class="img-fluid" alt="Game Title">
+                        <h5>
+                            <span class="badge bg-primary">game design</span>
+                            <span class="badge bg-primary">code</span>
+                            <span class="badge bg-primary">art</span>
+                        </h5>
+                    </div>
+                    <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis</strong> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                        <a class="btn btn-primary subheading mb-5" href="#" role="button">Download</a>
+                </div>
+            </section>
+
+            <!-- Certifications -->
+            <section class="resume-section" id="other-work">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Game Title</h2>
+                    <div class="subheading">
+                        <img src="https://placehold.co/600x400" class="img-fluid" alt="Game Title">
+                        <h5>
+                            <span class="badge bg-primary">game design</span>
+                            <span class="badge bg-primary">code</span>
+                            <span class="badge bg-primary">art</span>
+                        </h5>
+                    </div>
+                    <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis</strong> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                        <a class="btn btn-primary subheading mb-5" href="#" role="button">Download</a>
+                </div>
+            </section>
+
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

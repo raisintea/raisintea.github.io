@@ -104,3 +104,8 @@
     opacity: 1;
   }
 }
+
+.fade {
+  opacity:0;
+  transition: .3s all ease-out;
+}
