@@ -1,14 +1,14 @@
-$(document).ready(function() {
+// $(document).ready(function() {
   
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop() + $(window).height();
-    if (scroll == $(document).height()) {
-      $('#mouse-scroll').addClass('fade');
-    } else{
-      $('#mouse-scroll').removeClass('fade');
-    }
-  })
-});
+//   $(window).scroll(function() {
+//     var scroll = $(window).scrollTop() + $(window).height();
+//     if (scroll == $(document).height()) {
+//       $('#mouse-scroll').addClass('fade');
+//     } else{
+//       $('#mouse-scroll').removeClass('fade');
+//     }
+//   })
+// });
 
 $.scrollify({
     section : ".panel",
@@ -20,6 +20,13 @@ $.scrollify({
       $(".navbar-nav .active").removeClass("active");
 
       $(".navbar-nav").find("a[href=\"#" + ref + "\"]").addClass("active");
+
+      if(ref == "others"){
+        $('#mouse-scroll').addClass('fade');
+      }
+      else{
+        $('#mouse-scroll').removeClass('fade');
+      }
     },
     afterRender:function() {
       var navbar = "<ul class=\"navbar-nav\">";
