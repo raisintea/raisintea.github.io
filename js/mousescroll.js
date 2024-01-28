@@ -11,9 +11,10 @@
 // });
 
 $.scrollify({
-    section : ".panel",
+    section:".panel",
     scrollSpeed:1100,
     scrollbars:false,
+    overflowscroll:true,
     before:function(i,panels) {
       var ref = panels[i].attr("data-section-name");
 
