@@ -13,7 +13,6 @@
 $.scrollify({
     section : ".panel",
     scrollSpeed:1100,
-    touchScroll: false,
     scrollbars:false,
     before:function(i,panels) {
       var ref = panels[i].attr("data-section-name");
