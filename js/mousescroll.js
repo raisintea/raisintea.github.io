@@ -15,6 +15,7 @@ $.scrollify({
     scrollSpeed:1100,
     scrollbars:false,
     overflowscroll:true,
+    interstitialSection:".header",
     before:function(i,panels) {
       var ref = panels[i].attr("data-section-name");
 
