@@ -10981,3 +10981,24 @@ section.panel .panel-content {
 .jp-font{
   font-family: "Zen Kaku Gothic New";
 }
+
+.lang-link{
+  display: inline-block;
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.lang-link img {
+  display: none;
+}
+.lang-link:hover, .lang-link:focus {
+  color: var(--bs-nav-link-hover-color);
+}
+.lang-link.disabled {
+  color: var(--bs-text-opacity);
+  pointer-events: none;
+  cursor: default;
+}
+.lang-link.disabled img {
+  display: inline-block;
+}
