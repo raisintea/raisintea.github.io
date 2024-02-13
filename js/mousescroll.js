@@ -11,11 +11,11 @@
 // });
 
 $.scrollify({
-    section:"section",
-    interstitialSection:".panel",
+    section:".panel",
     scrollSpeed:1100,
-    scrollbars:true,
-    overflowScroll:true,
+    scrollbars:false,
+    overflowscroll:true,
+    interstitialSection:".header",
     before:function(i,panels) {
       var ref = panels[i].attr("data-section-name");
 
